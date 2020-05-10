@@ -6,19 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="robots" content="noindex, nofollow">
-   <title>COVID-19 Miscellany</title>
+    <title>COVID-19 Miscellany</title>
     <link href="Assets/COVID-19.png" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="MainCSS.css" rel="stylesheet">
+    <script defer src="MainJS.js"></script>
 </head>
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 border-bottom shadow-sm nav-section">
         <h5 class="my-0 mr-md-auto font-weight-normal">COVID-19 Miscellany</h5>
         <nav class="my-4 my-md-0 mr-md-3">
+            <div class="dropdown">
+                <a onclick="myFunction()" class="p-2 text-dark">Go To</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="#_Toc39948274">QUICK LINKS</a>
+                    <a href="#_Toc39948275">CLINICAL RESOURCES</a>
+                    <a href="#_Toc39948276">COVID-19-specific Guidance and Protocols</a>
+                    <a href="#_Toc39948277">COVID-19 Testing for staff, householders of staff, and other key workers</a>
+                    <a href="#_Toc39948278">Resuscitation</a>
+                    <a href="#_Toc39948279">Palliative Care</a>
+                    <a href="#_Toc39948280">COVID GENERAL RESOURCES</a>
+                    <a href="#_Toc39948281">Personal Protective Equipment (PPE)</a>
+                    <a href="#_Toc39948282">Compassionate Telephone Communication</a>
+                    <a href="#_Toc39948283">Shielding, and the “Extremely Vulnerable” List</a>
+                    <a href="#_Toc39948284">Self-Isolation, and guidance for households with possible COVID-19 infection</a>
+                    <a href="#_Toc39948285">Social Distancing, and “Lockdown”</a>
+                    <a href="#_Toc39948286">Notification</a>
+                    <a href="#_Toc39948287">Clinical Guidance by Specialty</a>
+                    <a href="#_Toc39948288">Death</a>
+                    <a href="#_Toc39948289">Safeguarding</a>
+                    <a href="#_Toc39948290">Responding to Domestic Abuse During COVID</a>
+                    <a href="#_Toc39948291">Research into COVID-19</a>
+                    <a href="#_Toc39948292">PRESCRIBING</a>
+                    <a href="#_Toc39948293">Managing Ramadan during COVID-19</a>
+                    <a href="#_Toc39948294">SERVICE UPDATES - PRIMARY CARE and Community Teams</a>
+                    <a href="#_Toc39948295">SOCIAL CARE</a>
+                    <a href="#_Toc39948296">Advocacy</a>
+                    <a href="#_Toc39948297">Bereavement Support</a>
+                    <a href="#_Toc39948298">Nutrition and hydration advice for the elderly</a>
+                    <a href="#_Toc39948299">Social Prescribers – Contact details</a>
+                    <a href="#_Toc39948300">Volunteer Services</a>
+                    <a href="#_Toc39948301">Citizens Advice East Hampshire (CAEH)</a>
+                    <a href="#_Toc39948302">East Hants District Council</a>
+                    <a href="#_Toc39948303">Smoke Free</a>
+                    <a href="#_Toc39948304">SUPPORT FOR NHS STAFF</a>
+                    <a href="#_Toc39948305">Mental Wellbeing Support for all NHS Staff</a>
+                    <a href="#_Toc39948306">Counselling for Everyone</a>
+                    <a href="#_Toc39948307">Counselling for Doctors</a>
+                    <a href="#_Toc39948308">Counselling for Nurses</a>
+                    <a href="#_Toc39948309">Guidance for Managers</a>
+                    <a href="#_Toc39948310">Supermarket Hours for NHS Staff</a>
+                    <a href="#_Toc39948311">NHS Staff Offers</a>
+                    <a href="#_Toc39948312">The post-COVID ERA</a>
+                </div>
+            </div>
             <a class="p-2 text-dark" href="Home.html">Home</a>
             <a class="p-2 text-dark" href="Download.html">Download</a>
             <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="search_icon"></i></button>
+            <button type="submit"><i class="fa fa-search"></i></button>
+
         </nav>
     </div>
 
