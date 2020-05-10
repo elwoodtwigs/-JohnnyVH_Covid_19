@@ -49,10 +49,30 @@ h3 {
   background-size: 100%;
   background-position: center;
  }
+ @media (max-width: 900px) {
+ .hero-section h1, .hero-section p {
+  text-shadow: white 0px 0px 10px;
+ }
+}
  @media (max-width: 360px) {
   .hero-section {
     background-size: 150%;
   }
+}
+.bg-grey {
+  background-color: lightgrey;
+}
+.quicklinks-section p {
+  width: 72%;
+  display: inline-block;
+  background-color: #005eb8;
+  max-height: 50px;
+  cursor: pointer;
+}
+.quicklinks-section a {
+  color: white;
+    text-decoration: none;
+    line-height: 49px;
 }
 .date-updated {
   font-size: 19px;
@@ -61,6 +81,7 @@ h3 {
   background-color: #005eb8;
   border-bottom: 0px !important;
   color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,.3)!important;
 }
 nav a {
   font-size: 19px;
