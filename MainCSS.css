@@ -60,7 +60,10 @@ h3 {
   }
 }
 .bg-grey {
-  background-color: lightgrey;
+  background-color: #f0f4f5;
+}
+.bg-yellow {
+  background-color: #ffeb3b;
 }
 .quicklinks-section p {
   width: 72%;
@@ -68,6 +71,8 @@ h3 {
   background-color: #005eb8;
   max-height: 50px;
   cursor: pointer;
+  text-align: left;
+    padding-left: 20px;
 }
 .quicklinks-section a {
   color: white;
