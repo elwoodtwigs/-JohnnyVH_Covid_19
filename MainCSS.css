@@ -1,4 +1,4 @@
-* { margin: 0; padding 0;}
+
 html {
   font-size: 14px;
 }
@@ -42,33 +42,4 @@ h3 {
     border-left-color: blue;
     border-top: thin,solid;
     border-top-color: blue;
-}
-h3 {
-    color: black;
-    text-align: left;
-    border-left: thin,solid;
-    border-left-color: blue;
-    border-top: thin,solid;
-    border-top-color: blue;
-}
-.form-container {
-    margin: auto;
-    width: 250px;
-    height: auto;
-    padding 20px 30px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 0 #000;
-}
-.form-container {
-    margin: auto;
-    width: 250px;
-    height: auto;
-    padding 20px 30px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 0 #000;
-}
-#padding {
-    padding-top: 10vh;
 }
