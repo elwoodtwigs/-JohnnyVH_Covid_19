@@ -79,6 +79,13 @@ h3 {
     text-decoration: none;
     line-height: 49px;
 }
+.quicklinks-section a:after {
+  content: ">";
+    float: right;
+    padding-right: 20px;
+    font-size: 21px;
+}
+}
 .date-updated {
   font-size: 19px;
 }
