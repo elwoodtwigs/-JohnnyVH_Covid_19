@@ -121,6 +121,9 @@ border: 1px solid #fff;
     margin-bottom: 1.5rem!important;
     margin-top: 1.5rem!important;
 }
+.main-section a {
+  word-break: break-word;
+}
 /* The search field */
 #myInput {
   box-sizing: border-box;
