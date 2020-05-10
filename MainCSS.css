@@ -23,6 +23,7 @@ html {
 body {
     color: black;
     text-align: center;
+    font-family: arial;
 }
 
 h1 {
@@ -53,4 +54,16 @@ h3 {
   .hero-section {
     background-size: 150%;
   }
+}
+nav a {
+  font-weight: bold;
+  font-size: 25px;
+}
+nav a:hover {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+nav a {
+font-size: 20px;
+}
 }
