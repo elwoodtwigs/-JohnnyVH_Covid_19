@@ -57,8 +57,12 @@ h3 {
     background-size: 150%;
   }
 }
+.nav-section {
+  background-color: #007bff;
+  border-bottom: 0px !important;
+  color: white;
+}
 nav a {
-  font-weight: bold;
   font-size: 25px;
 }
 nav a:hover {
